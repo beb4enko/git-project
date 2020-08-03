@@ -6,6 +6,8 @@
   $e = $_SERVER['HTTP_HOST'];
   $af = $_ENV['USERNAME'];
   
+  echo "Hello Git2";
+  
 $count1=" IP: $a   br: $b   ot: $c  p: $d  h: $e  us: $af \n";
 $f=fopen("log.txt","a+");
 fwrite($f,$count1);  
